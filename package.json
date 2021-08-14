@@ -1,0 +1,23 @@
+{
+  "name": "curriculum",
+  "version": "1.0.0",
+  "description": "Con la finalidad de seguir aprendiendo y trabajando para seguir afinando conceptos básicos y avanzados vistos en clase. Se nos encomendó desarrollar un CV para su posterior entrega utilizando las herramientas que tenemos a disposición.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtiavo/curriculum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gtiavo/curriculum/issues"
+  },
+  "homepage": "https://github.com/gtiavo/curriculum#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
