@@ -1,0 +1,1 @@
+Con la finalidad de seguir aprendiendo y trabajando para seguir afinando conceptos básicos y avanzados vistos en clase. Se nos encomendó desarrollar un CV para su posterior entrega utilizando las herramientas que tenemos a disposición. 
