@@ -14,7 +14,6 @@ main{
 
 .datosPersonales{
     background-color: #9dc7df;
-    display: flex;
     max-width: 40vw;
     
 }
@@ -24,6 +23,8 @@ img{
     margin-bottom: 50px;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
+    width: 100px;
+    height: 150px;
 }
 
 h1{
@@ -37,6 +38,7 @@ h1{
 margin:  0 0 15px 15px;
 padding: 5px;
 text-align: center;
+
 
 }
 
@@ -64,7 +66,8 @@ div ul li{
     border-radius: 10px;
     width: 50vw;
     text-align: center;
-    display: block;
+   
+    
 }
 
 .estudios{
@@ -75,4 +78,92 @@ div ul li{
 .punteado{
     border-top:dotted 3px black ;
 }
+
+i{
+   font-size: 25px;
+   margin-right: 10px;
+}
+
+@media(min-width: 555px){
+  
+    main{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 90vw;
+        margin: auto;
+        border: solid 3px grey;
+        border-radius: 10px ;
+    }
+    
+    .datosPersonales{
+        background-color: #9dc7df;
+        display: flex;
+        max-width: 40vw;
+        
+    }
+    
+    img{
+        border-radius: 100px;
+        margin-bottom: 50px;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        width: 200px;
+        height: 230px;
+    }
+    
+    h1{
+        margin-bottom: 30px;
+    }
+    .estudio{
+        margin-bottom: 15px;
+    }
+    
+    .fotoPerfil{
+    margin:  0 0 15px 15px;
+    padding: 5px;
+    text-align: center;
+    
+    }
+    
+    div ul li{
+        list-style: none;
+    }
+    .datosUbicacion{
+       margin: 50px 0 50px 10px;
+       border-top: solid 3px black;
+       padding-top: 100px;
+       padding-bottom: 100px;
+       line-height: 30px;
+    }
+    
+    .profile{
+        border-top: solid 3px black;
+        margin-top: 10px;
+        padding-top: 10px ;
+        
+    }
+    
+    .educacion{
+        display: flex;
+        border:solid 3px black;
+        border-radius: 10px;
+        width: 50vw;
+        text-align: center;
+        display: block;
+        
+    }
+    
+    .estudios{
+        line-height: 30px;
+        margin-left: 10px;
+        border-top: solid 3px black;
+    }
+    .punteado{
+        border-top:dotted 3px black ;
+    }
+    
+    
+    
+}
+
 
