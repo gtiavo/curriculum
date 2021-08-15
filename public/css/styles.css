@@ -62,7 +62,8 @@ div ul li{
 
 .educacion{
     display: flex;
-    border:solid 3px black;
+    border-right:solid 6px black;
+    border-bottom:solid 6px black ;
     border-radius: 10px;
     width: 50vw;
     text-align: center;
@@ -73,7 +74,18 @@ div ul li{
 .estudios{
     line-height: 30px;
     margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
     border-top: solid 3px black;
+}
+ p{
+    text-align: justify; 
+    margin:10px 10px 10px 10px;
+    line-height: 30px;
+ }
+
+.objetivos{
+    margin-top: 100px;
 }
 .punteado{
     border-top:dotted 3px black ;
@@ -82,6 +94,16 @@ div ul li{
 i{
    font-size: 25px;
    margin-right: 10px;
+}
+.grupoIntereses{
+    margin-top: 50px;
+}
+
+.intereses{
+    font-weight: 300px;
+    display: inline;
+    margin-left: 50px;
+    
 }
 
 @media(min-width: 555px){
@@ -145,7 +167,8 @@ i{
     
     .educacion{
         display: flex;
-        border:solid 3px black;
+        border-right:solid 6px black;
+        border-bottom:solid 6px black ;
         border-radius: 10px;
         width: 50vw;
         text-align: center;
