@@ -13,7 +13,7 @@ main{
 }
 
 .datosPersonales{
-    background-color: #9dc7df;
+    background-color: rgb(117, 200, 248);
     max-width: 40vw;
     
 }
@@ -29,6 +29,13 @@ img{
 
 h1{
     margin-bottom: 30px;
+    font-family: arial;
+}
+h2{
+    font-family:  Helvetica;
+}
+h4{
+    font-family:  sans-serif;
 }
 .estudio{
     margin-bottom: 15px;
@@ -51,6 +58,7 @@ div ul li{
    padding-top: 100px;
    padding-bottom: 100px;
    line-height: 30px;
+   
 }
 
 .profile{
@@ -82,6 +90,7 @@ div ul li{
     text-align: justify; 
     margin:10px 10px 10px 10px;
     line-height: 30px;
+    font-family: sans-serif;
  }
 
 .objetivos{
@@ -118,7 +127,7 @@ i{
     }
     
     .datosPersonales{
-        background-color: #9dc7df;
+        background-color: rgb(117, 200, 248);
         display: flex;
         max-width: 40vw;
         

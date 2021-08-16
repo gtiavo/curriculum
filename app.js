@@ -8,6 +8,8 @@ app.get('/', (req,res)=>{
     res.sendFile(path.join(__dirname,'./views/index.html'))
 })
 
-app.listen(3000,()=>{
-    console.log('el puerto 3000 esta corriendo')
-})
+const puerto = process.env.PORT || 3000
+
+app.listen(puerto,()=>
+    console.log(`el puerto ${puerto} esta corriendo`)
+)
