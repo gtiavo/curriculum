@@ -13,8 +13,9 @@ main{
 }
 
 .datosPersonales{
-    background-color: rgb(117, 200, 248);
-    max-width: 40vw;
+    background-color: #9c9ea0;
+    max-width: 50vw;
+    display: flex;
     
 }
 
@@ -85,9 +86,11 @@ div ul li{
     margin-right: 10px;
     margin-top: 10px;
     border-top: solid 3px black;
+   
+
 }
  p{
-    text-align: justify; 
+    
     margin:10px 10px 10px 10px;
     line-height: 30px;
     font-family: sans-serif;
@@ -95,6 +98,7 @@ div ul li{
 
 .objetivos{
     margin-top: 100px;
+   
 }
 .punteado{
     border-top:dotted 3px black ;
@@ -105,97 +109,43 @@ i{
    margin-right: 10px;
 }
 .grupoIntereses{
-    margin-top: 50px;
+    margin: auto;
+
+  
 }
 
 .intereses{
     font-weight: 300px;
-    display: inline;
     margin-left: 50px;
     
 }
 
-@media(min-width: 555px){
-  
-    main{
+@media (min-width:760px) {
+    img{
+        width: 170px;
+        height: 200px;
+    }
+    .grupoIntereses{
         display: flex;
         flex-wrap: nowrap;
-        width: 90vw;
-        margin: auto;
-        border: solid 3px grey;
-        border-radius: 10px ;
-    }
-    
-    .datosPersonales{
-        background-color: rgb(117, 200, 248);
-        display: flex;
-        max-width: 40vw;
-        
-    }
-    
-    img{
-        border-radius: 100px;
-        margin-bottom: 50px;
-        -moz-border-radius: 50%;
-        -webkit-border-radius: 50%;
-        width: 200px;
-        height: 230px;
-    }
-    
-    h1{
-        margin-bottom: 30px;
-    }
-    .estudio{
-        margin-bottom: 15px;
-    }
-    
-    .fotoPerfil{
-    margin:  0 0 15px 15px;
-    padding: 5px;
-    text-align: center;
-    
-    }
-    
-    div ul li{
-        list-style: none;
-    }
-    .datosUbicacion{
-       margin: 50px 0 50px 10px;
-       border-top: solid 3px black;
-       padding-top: 100px;
-       padding-bottom: 100px;
-       line-height: 30px;
-    }
-    
-    .profile{
-        border-top: solid 3px black;
-        margin-top: 10px;
-        padding-top: 10px ;
-        
-    }
-    
-    .educacion{
-        display: flex;
-        border-right:solid 6px black;
-        border-bottom:solid 6px black ;
-        border-radius: 10px;
-        width: 50vw;
         text-align: center;
-        display: block;
+       
+    }
+
+    .intereses{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
         
     }
-    
-    .estudios{
-        line-height: 30px;
-        margin-left: 10px;
-        border-top: solid 3px black;
-    }
-    .punteado{
-        border-top:dotted 3px black ;
-    }
-    
-    
-    
 }
 
-
+@media (min-width:1000px) {
+    .grupoIntereses{
+        justify-content: space-between;
+    }
+    .intereses i{
+        font-size: 40px;
+        
+    }
+}
